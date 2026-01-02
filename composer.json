@@ -1,0 +1,17 @@
+{
+    "name": "security/phishing-simulation",
+    "description": "Educational phishing simulation platform",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "files": ["config.php"]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "chmod 777 users.json",
+            "chmod 777 error.log"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./users.json:/var/www/html/users.json
+      - ./error.log:/var/www/html/error.log
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
+      - PHP_MEMORY_LIMIT=256M
+    restart: unless-stopped
+
+volumes:
+  app_data:

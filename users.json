@@ -1,0 +1,54 @@
+{
+  "attempts": [
+    {
+      "id": "attempt_657f8a1b12345",
+      "timestamp": "2024-01-02 10:30:00",
+      "platform": "facebook",
+      "username": "demo_user@example.com",
+      "password": "********",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "educational_viewed": true,
+      "is_simulation": true
+    },
+    {
+      "id": "attempt_657f8a1b67890",
+      "timestamp": "2024-01-02 11:15:00",
+      "platform": "instagram",
+      "username": "test_user123",
+      "password": "********",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "educational_viewed": true,
+      "is_simulation": true
+    },
+    {
+      "id": "attempt_657f8a1b24680",
+      "timestamp": "2024-01-02 12:45:00",
+      "platform": "google",
+      "username": "google.test@gmail.com",
+      "password": "********",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/537.36",
+      "educational_viewed": true,
+      "is_simulation": true
+    }
+  ],
+  "statistics": {
+    "total_tests": 3,
+    "unique_visitors": 1,
+    "visitors": ["7c212c615d7f4d1b5e8f9a0c3b2d4e5f"],
+    "platforms": {
+      "facebook": 1,
+      "instagram": 1,
+      "google": 1,
+      "banking": 0,
+      "email": 0
+    }
+  },
+  "meta": {
+    "created": "2024-01-02 10:00:00",
+    "last_updated": "2024-01-02 12:45:00",
+    "educational_notes": "This file contains simulated data for educational purposes only. No real credentials are stored."
+  }
+}
